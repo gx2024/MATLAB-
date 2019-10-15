@@ -1,0 +1,40 @@
+各种循环结构和其他编程语言类似
+控制语句常用命令：
+1.continue
+      跳过本循环中未被执行的语句，执行下一轮的循环
+2.break
+      与if一同使用，当if后面的表达式为真时，调用break语句，跳出循环
+3.return
+      终止当前命令的执行，并且立即返回到上一级调用函数或者等待键盘输入命令，可以用来提前结束程序的运行
+4.input
+      将控制权交给用户，用户通过键盘输入内容到工作空间
+      格式如下： user_entry=input('prompt')        输入数值
+                user_entry=input('prompt','s')    输入字符串
+5.keboard
+      使程序暂停运行，等待键盘命令。通过提示符k显示一种特殊状态，只有当用户使用return命令结束输入后，控制交还给程序。
+6.error和warning
+      使用方法：
+      error('message')，显示出错信息message，并停止程序
+      warning（‘message’），显示出错信息message，继续程序
+数据输入和输出
+      键盘输入语句（input）
+      屏幕输出语句：disp   格式：disp（x）
+      m数据文件的储存和加载
+        1.save
+           save
+           savefilename
+           savefilenameX Y Z
+        2.load
+           load
+           loadfilename
+           loadfilenameX Y Z
+       格式化文本文件的储存/读取
+        1.fprintf
+             count=fprintf（fid，format，a....）,count是写入文件的字节数
+        2.fscanf
+            [A,count]=fscanf(fid,format,size)
+        数据文件的读取
+        1.fgetl
+           tline=fgetl(fid),读取以fid指定的文件的下一行数据，不包括回车符
+        2.fgets
+           tline=fgrts（fid），
