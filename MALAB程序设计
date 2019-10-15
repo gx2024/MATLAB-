@@ -37,4 +37,6 @@
         1.fgetl
            tline=fgetl(fid),读取以fid指定的文件的下一行数据，不包括回车符
         2.fgets
-           tline=fgrts（fid），
+           tline=fgrts（fid），和fgetl一样
+        文件操作，不祥述
+        
